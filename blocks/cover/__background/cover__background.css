@@ -1,0 +1,11 @@
+.cover__background {
+    height: calc((100vw - 96px) * 0.625);
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__background {
+        height: 62.5%;
+    }
+}
