@@ -1,4 +1,29 @@
 @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./Inter-Regular.woff2) format("woff2"), url(./Inter-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./Inter-Bold.woff2) format("woff2"), url(./Inter-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(./Inter-Black.woff2) format("woff2"), url(./Inter-Black.woff) format("woff");
+}
+
+
+/*@font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 100;
@@ -150,6 +175,8 @@
   src: url("Inter-BlackItalic.woff2?v=3.19") format("woff2"),
        url("Inter-BlackItalic.woff?v=3.19") format("woff");
 }
+*/
+
 
 /* -------------------------------------------------------
 Variable font.
@@ -160,6 +187,9 @@ Usage:
     html { font-family: 'Inter var', sans-serif; }
   }
 */
+
+
+/*
 @font-face {
   font-family: 'Inter var';
   font-weight: 100 900;
@@ -176,6 +206,7 @@ Usage:
   font-named-instance: 'Italic';
   src: url("Inter-italic.var.woff2?v=3.19") format("woff2");
 }
+*/
 
 
 /* --------------------------------------------------------------------------
@@ -191,6 +222,9 @@ explicitly, e.g.
   .italic { font-variation-settings: "slnt" 10deg }
 
 */
+
+
+/*
 @font-face {
   font-family: 'Inter var experimental';
   font-weight: 100 900;
@@ -198,3 +232,4 @@ explicitly, e.g.
   font-style: oblique 0deg 10deg;
   src: url("Inter.var.woff2?v=3.19") format("woff2");
 }
+*/
